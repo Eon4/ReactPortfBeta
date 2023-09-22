@@ -7,6 +7,7 @@ import { AboutPage } from "./pages/AboutPage/AboutPage";
 import { Gallery } from "./pages/Gallery/Gallery";
 // import { NotFoundPage } from "./pages/NotFoundPage";
 
+
 function App() {
   return (
       <BrowserRouter>
