@@ -17,6 +17,7 @@ export const Navigation = () => {
         <nav className={style.navStyle}>
             <div>
                 <Link to="/">Home</Link>
+                <Link to="/gallery">Gallery</Link>
                 <Link to="/about">About</Link>
             </div>
         </nav>
