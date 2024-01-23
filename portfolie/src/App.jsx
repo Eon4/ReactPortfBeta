@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { MainLayout } from "./layout/MainLayout";
 import { HomePage } from "./pages/HomePage/HomePage";
 import { AboutPage } from "./pages/AboutPage/AboutPage";
-import { Gallery } from "./pages/Gallery/Gallery";
+import { Work } from "./pages/Work/work";
 // import { NotFoundPage } from "./pages/NotFoundPage";
 
 
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout/>}>
             <Route index element={<HomePage/>}/>
-            <Route path="/gallery" element={<Gallery/>}/>
+            <Route path="/work" element={<Work/>}/>
             <Route path="/about" element={<AboutPage/>}/>
             {/* <Route path="*" element={<NotFoundPage/>}/> */}
           </Route>

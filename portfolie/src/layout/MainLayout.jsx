@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-// import { Footer } from "../components/Footer/Footer";
+import { Footer } from "../components/Footer/Footer";
 import { Navigation } from "../components/Navigation/Nav";
 import style from './MainLayout.module.scss'
 export const MainLayout = () => {
@@ -8,7 +8,7 @@ export const MainLayout = () => {
     <main className={style.layoutStyle}>
       <Navigation/>
         <Outlet/>
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };

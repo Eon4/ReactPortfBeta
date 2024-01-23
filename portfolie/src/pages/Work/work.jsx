@@ -1,6 +1,6 @@
 import { ContentSection } from "../../components/ContentSection/ContentSection";
 
-export const Gallery = () => {
+export const Work = () => {
   return (
     <ContentSection title="Work gallery Page">
       <h3>Here is the work gallery page. Take a look around!</h3>

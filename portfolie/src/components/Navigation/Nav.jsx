@@ -17,8 +17,10 @@ export const Navigation = () => {
         <nav className={style.navStyle}>
             <div>
                 <Link to="/">Home</Link>
-                <Link to="/gallery">Gallery</Link>
+                <Link to="/work">Work</Link>
                 <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+
             </div>
         </nav>
     )

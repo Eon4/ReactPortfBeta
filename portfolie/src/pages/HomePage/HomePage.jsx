@@ -1,5 +1,6 @@
-import { useEffect } from "react";
+import {useEffect } from "react";
 import { ContentSection } from "../../components/ContentSection/ContentSection";
+import ComputerCanvas from "../../components/Canvas/Computer";
 
 export const HomePage = () => {
 
@@ -23,9 +24,7 @@ export const HomePage = () => {
         maxime eum, perferendis explicabo temporibus accusantium enim ipsam
         possimus veniam est.
       </p>
-      <div>
-        3D developer Portfolio
-      </div>
+        <ComputerCanvas/>
     </ContentSection>
   );
 };

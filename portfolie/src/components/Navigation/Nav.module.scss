@@ -1,0 +1,22 @@
+.navStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #333; /* Add your preferred background color */
+  }
+  
+  .navStyle a {
+    color: white; /* Set the font color */
+    text-decoration: none;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 15px; /* Add margin to create separation between links */
+  }
+  
+  .navStyle a:last-child {
+    margin-right: 0; /* Remove margin for the last link */
+  }
+  
+  .navStyle a:hover {
+    color: #f00; /* Change the color on hover if desired */
+  }
+  
