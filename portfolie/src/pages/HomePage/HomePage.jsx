@@ -23,6 +23,9 @@ export const HomePage = () => {
         maxime eum, perferendis explicabo temporibus accusantium enim ipsam
         possimus veniam est.
       </p>
+      <div>
+        3D developer Portfolio
+      </div>
     </ContentSection>
   );
 };
