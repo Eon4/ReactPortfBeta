@@ -1,20 +1,60 @@
-.navStyle {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px; /* Adjust the padding as needed */
-    background-color: #333; /* Add your preferred background color */
-  }
+// .navStyle {
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 20px;
+//     background-color: #333; 
+    
+//   }
   
-  .navStyle a {
-    color: white; /* Set the font color */
-    text-decoration: none;
-    font-size: 18px; /* Adjust the font size as needed */
-    text-align: center;
-    margin: 30px;
-  }
+//   .navStyle a {
+//     color: white;
+//     text-decoration: none;
+//     font-size: 24px; 
+//     text-align: center;
+//     margin: 30px;
+//   }
 
   
-  .navStyle a:hover {
-    color: #f00; /* Change the color on hover if desired */
-  }
+//   .navStyle a:hover {
+//     color: #f00; 
+//   }
   
+
+.navStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333; 
+}
+
+.navStyle a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px; 
+  text-align: center;
+  margin: 30px;
+  position: relative; 
+}
+
+.navStyle a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: rgb(2, 187, 216); 
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  transition: width 0.3s ease; 
+}
+
+.navStyle a:hover::after,
+.navStyle a:active::after { 
+  width: 100%; 
+}
+
+.navStyle a:hover,
+.navStyle a:active,
+.navStyle a:focus { 
+  color: rgb(2, 187, 216); 
+}
